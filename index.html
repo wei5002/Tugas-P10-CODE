@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifestyle Theme || Shirley</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+  />
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">Visual Fruit Gallery</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item nav-underline">
+                      <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item nav-underline">
+                      <a class="nav-link" href="#about">Tentang</a>
+                  </li>
+                  <li class="nav-item nav-underline">
+                      <a class="nav-link" href="#jenis">Jenis</a>
+                  </li>
+                  <li class="nav-item nav-underline">
+                      <a class="nav-link" href="#contact">Kontak</a>
+                  </li>
+                  <li class="nav-item nav-underline">
+                      <a class="nav-link" href="#komunitas">Subscribe</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </nav>
+
+    <!-- Awalan (Foto) -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="Foto/buah (1).jpg" class="d-block w-100 custom-carousel-img" alt="Wellness lifestyle image from Unsplash">
+              <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                  <div class="caption-box bg-light text-dark p-4 rounded shadow">
+                      <div class="caption-text text-center" style="font-size: 200%;">Selamat Datang di Gallery fruit Visual!</div>
+                      <div class="caption-text text-center" style="font-size: 90%; color: rgb(90, 89, 89);">Informasi Terkait dengan Kami</div>
+                      <i class="bi bi-arrow-down-circle-fill" style="font-size: 2rem;color: black;"></i>
+                      <a href="#about">
+                          <button type="button" class="btn btn-warning btn-lg">Tentang Kami</button>
+                      </a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="carousel-item">
+              <img src="Foto/buah (4).jpg" class="d-block w-100 custom-carousel-img" alt="Fashion trends image from Unsplash">
+              <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                  <div class="caption-box bg-light text-dark p-4 rounded shadow">
+                      <div class="caption-text text-center" style="font-size: 200%;">Ingin Mengetahui Informasi Lebih Lanjut?</div>
+                      <div class="caption-text text-center" style="font-size: 90%; color: rgb(90, 89, 89);">Silakan Menekan Tombol Dibawah ^o^</div>
+                      <i class="bi bi-arrow-down-circle-fill" style="font-size: 2rem;color: black;"></i>
+                      <a href="#contact">
+                          <button type="button" class="btn btn-warning btn-lg">Kontak Kami</button>
+                      </a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="carousel-item">
+              <img src="Foto/buah (2).jpg" class="d-block w-100 custom-carousel-img" alt="Sustainable fashion image from Unsplash">
+              <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                  <div class="caption-box bg-light text-dark p-4 rounded shadow">
+                      <div class="caption-text text-center" style="font-size: 200%;">Jangan Lupa Join Komunitas Kami!</div>
+                      <div class="caption-text text-center" style="font-size: 90%; color: rgb(90, 89, 89);">Silakan Menekan Tombol Dibawah ^_^</div>
+                      <i class="bi bi-arrow-down-circle-fill" style="font-size: 2rem;color: black;"></i>
+                      <a href="#komunitas">
+                          <button type="button" class="btn btn-warning btn-lg">Komunitas</button>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- ABOUT -->
+     <div class="container-fluid pt-5 pb-5" >
+      <div class="container">
+        <h2 class="display-7 text-center" id="about"><b>Tentang Visual Fruit Gallery</b></h2>
+        <p class="text-center">
+          Selamat datang di Visual Fruit Gallery! Website ini didirikan pada tahun 2024 dengan tujuan untuk memberikan informasi yang berguna tentang berbagai jenis buah berdasarkan kadar gula dengan jumlah kalori pada buah yang di konsumsi. Kami percaya bahwa pengetahuan tentang buah tidak hanya menarik tetapi juga penting untuk kesehatan kita sehari-hari.
+        </p>
+        <div class="clearfix pt-3">
+          <img src="Foto/buah (6).jpg" class="col-md-6 float-md-end mb-3 crop-img" width="300" height="300" alt="Buah">
+          <p>
+            Di Visual Fruit Gallery, kami mengumpulkan dan menyajikan foto-foto buah yang menarik, serta memberikan informasi tentang kadar gula dan kalori yang terkandung dalam setiap jenis buah. Ini bertujuan untuk membantu pengguna memahami kandungan gizi dan memilih buah yang sesuai dengan kebutuhan kesehatan mereka.
+          </p>
+          <p>
+            Kami memiliki bagian khusus bagi mereka yang sedang menjalani program diet atau ingin lebih tahu tentang gizi yang terkandung dalam buah-buahan. Informasi ini akan membantu Anda membuat pilihan yang lebih baik dan lebih sadar akan asupan gizi Anda. 
+          </p>
+          <p>
+            Dengan adanya Visual Fruit Gallery, kami berharap Anda dapat menemukan inspirasi untuk mengonsumsi lebih banyak buah segar dan sehat. Bergabunglah bersama kami untuk menjelajahi dunia buah dan manfaat luar biasa yang ditawarkannya untuk kesehatan tubuh kita!
+          </p>
+          <p>
+            Mari kita bersama-sama mengedukasi diri tentang gizi dan kesehatan melalui buah-buahan. Temukan foto-foto yang menarik dan informasi bermanfaat di website kami, dan mulailah perjalanan sehat Anda hari ini!
+          </p>
+        </div>
+        </div>
+      </div>
+     </div>
+
+    <!-- Jenis -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-7" id="jenis"><b>Jenis Buah</b></h2>
+        <p>
+          Di Visual Fruit Gallery, kami mengkategorikan buah berdasarkan kadar gula dan kalori. Berikut adalah beberapa contoh:
+        </p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4 jenis-card">
+            <div class="card crop-img">
+              <img src="Foto/buah2 (6).jpg" class="card-img-top" width="200" height="250" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Rendah Gula</h5>
+                <p class="card-text">Alpukat, Stroberi, dan Jeruk nipis.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 jenis-card">
+            <div class="card crop-img">
+              <img src="Foto/buah2 (5).jpg" class="card-img-top" width="200" height="250" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sedang Gula</h5>
+                <p class="card-text">Apel, Kiwi, dan Anggur.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 jenis-card">
+            <div class="card crop-img">
+              <img src="Foto/buah2 (4).jpg" class="card-img-top" width="200" height="250" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tinggi Gula</h5>
+                <p class="card-text">Mangga, Pisang, dan Nanas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 jenis-card">
+            <div class="card crop-img">
+              <img src="Foto/buah2 (3).jpg" class="card-img-top" width="200" height="250" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kalori Rendah</h5>
+                <p class="card-text">Semangka, Timun, dan Selada.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 jenis-card">
+            <div class="card crop-img">
+              <img src="Foto/buah2 (2).jpg" class="card-img-top" width="200" height="250" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kalori Sedang</h5>
+                <p class="card-text">pir, Persik, dan Ceri.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 jenis-card">
+            <div class="card crop-img">
+              <img src="Foto/buah2 (1).jpg" class="card-img-top" width="200" height="250" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kalori Tinggi</h5>
+                <p class="card-text">Durian, Kelapa, dan Kismis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+     <!-- Contact Us -->
+    <div class="container-fluid">
+      <div class="container mt-5 ">
+        <h2 class="display-7 text-center" id="contact"><b>Contact Us</b></h2>
+          <div class="row text-center">
+            <div class="col-md-12 contactus">
+              <i class="bi bi-envelope-fill icon-contactus" ></i>
+              <h2>Chat us</h2>
+              <p>5:00 - 23:00 <br> Kecuali Hari Minggu</p>          
+            </div>
+            <div class="col-md-12 contactus">
+              <i class="bi bi-telephone-fill icon-contactus"></i>
+              <h2>Call us</h2>
+              <p>0123-456-789 <br> 
+                Informasi & pertanyaan: 09.00 - 18.00, Senin - Jumat</p>
+            </div>
+            <div class="col-md-12 contactus">
+              <i class="bi bi-geo-alt-fill icon-contactus"></i>
+              <h2>Lokasi</h2>
+              <p>
+                Letjen S. Parman St No.1, RT.6/RW.16, Tomang, Grogol Petamburan,
+                West Jakarta City, Jakarta 11440
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Komunitas -->
+    <section>
+      <div class="container-fluid pt-5 pb-5 komunitas bg-light" id="komunitas">
+        <div class="container">
+          <article>
+            <hgroup>
+              <h2>Join Our Community</h2>
+              <h3>Subscribe for the latest lifestyle updates</h3>
+            </hgroup>
+            <form class="grid">
+              <input
+                type="text"
+                id="firstname"
+                name="firstname"
+                placeholder="First Name"
+                aria-label="First Name"
+                required
+              />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                aria-label="Email"
+                required
+              />
+              <button type="submit" onclick="event.preventDefault()" class="kotak-komunitas">
+                Subscribe
+              </button>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>  
+    
+    <!-- footer -->
+    <footer style="background-color: rgb(188, 208, 144); ">
+      <div class="container-fluid pt-1 pb-1">
+        <div class="container">
+          <div class="row text-center pt-1">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+              <h6>@visualfruitgallery</h6>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <i class="bi bi-facebook" style="font-size: 2rem;"></i>
+              <h6>@visualfruitgallery</h6>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <i class="bi bi-telephone" style="font-size: 2rem;"></i>
+              <h6>0123-4567-8901</h6>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <i class="bi bi-envelope" style="font-size: 2rem;"></i>
+              <h6>visualfruitgallery@gmail.com</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center py-5">
+        <p>&copy; 2024 Visual Fruit Gallery. All Rights Reserved. <br>
+          <small>
+            <a href="#">Privacy Policy</a>    ||
+            <a href="#">Terms & Conditions</a>
+          </small>
+        </p>
+      </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,99 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 90px;
+}
+
+/* navbar */
+.navbar-custom {
+    background-color: #e0ebc0;
+    color: gray;
+}
+.navbar-custom .navbar-brand {
+    color: #6d473a;
+    font-size: 2rem;
+}
+.nav-link {
+    color: #6d473a;
+    font-size: 20px;
+}
+
+/* Custom Carousel */
+.custom-carousel-img {
+    height: 100vh;
+    object-fit: cover; /* Mengatur gambar agar sesuai dengan lebar, tanpa memangkas tinggi */
+    object-position: center; /* Pusatkan gambar */
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Carousel Item */
+.carousel-item img {
+    filter: brightness(85%); /* Sedikit gelapkan gambar agar teks lebih jelas */
+} 
+
+.caption-box {
+    background-color: rgba(255, 255, 255, 0.7); /* Warna putih transparan */
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.caption-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+
+/* Button */
+.btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+/* Jenis */
+.lingkaran{
+    display: inline-block;
+    width: 250px;
+    margin: auto;
+    height: 250px;
+}
+
+.crop-img{
+    object-fit: cover;
+}
+
+.jenis-card {
+    transition: transform 0.3s ease;
+}
+
+.jenis-card:active {
+    transform: scale(1.1); 
+}
+
+.jenis-card:hover{
+    scale: 1.05;
+}
+
+/* kontak */
+.contactus h2{
+    font-size: 20px;
+}
+
+.icon-contactus{
+    font-size: 30px;
+}
+
+/* komunitas */
+.kotak-komunitas{
+    height: 60px;
+}
+.kotak-komunitas:hover{
+    background-color: grey;
+}
